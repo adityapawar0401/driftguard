@@ -1,0 +1,2920 @@
+{
+  "decisions": [
+    {
+      "decisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_4",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "8f25554b-0414-486f-9e35-84086a6c3327",
+      "actionType": "department_action",
+      "verdict": "allow_modified",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected.",
+        "Human override by Demo Manager: not appropriate increase margin"
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0ebc6b81-7803-4548-84a9-f79568929d0f",
+          "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_a3fa1098-2dcf-4ec6-b663-60e2c15973bb",
+          "content": "DriftGuard verdict allow for customer_reply_draft: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_a42af1b4-3ddb-4267-882c-eb6fab55b668",
+          "content": "DriftGuard verdict allow for issue_classification: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "8f25554b-0414-486f-9e35-84086a6c3327",
+        "type": "DEPARTMENT_ACTION",
+        "issueId": "iss-1016",
+        "artifactId": "b99ffb05-84ee-4c65-9046-f336340a80af",
+        "title": "IO-1016: QUALITY action",
+        "proposedContent": "QUALITY review for SWD-20 WATER_LEAKAGE. Review issue IO-1016: Leakage near base. ",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "8f25554b-0414-486f-9e35-84086a6c3327",
+        "type": "DEPARTMENT_ACTION",
+        "issueId": "iss-1016",
+        "artifactId": "b99ffb05-84ee-4c65-9046-f336340a80af",
+        "title": "IO-1016: QUALITY action",
+        "proposedContent": "QUALITY review for SWD-20 WATER_LEAKAGE. Review issue IO-1016: Leakage near base. ",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "human_authorized_override",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.689Z",
+      "metadata": {
+        "title": "IO-1016: QUALITY action",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL",
+        "humanOverride": {
+          "reviewerId": "manager-demo",
+          "reviewerName": "Demo Manager",
+          "reason": "not appropriate increase margin",
+          "at": "2026-05-30T18:13:36.262Z"
+        }
+      }
+    },
+    {
+      "decisionId": "dec_27cb4662-87fd-4dd0-a452-c3cb0e0d2f11",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_13",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "5159394b-5f7b-4b6c-901a-b6cb8c804d9e",
+      "actionType": "report_export",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0f0dcc05-1e45-4c8a-b492-3596054b3cca",
+          "content": "DriftGuard verdict review_required for memory_candidate: Memory candidates require human review before becoming trusted durable precedent.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_3478ed5b-d12d-4aec-940f-6b65ae6e7099",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_92fd70f3-998a-4171-a5cd-1f01bc1fcbe1",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "5159394b-5f7b-4b6c-901a-b6cb8c804d9e",
+        "type": "REPORT_EXPORT",
+        "title": "Manager report copy/export",
+        "proposedContent": "Prepare a local report after approved items are applied.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "PLACEHOLDER",
+        "placeholderMessage": "Local placeholder only. No external action was performed."
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "5159394b-5f7b-4b6c-901a-b6cb8c804d9e",
+        "type": "REPORT_EXPORT",
+        "title": "Manager report copy/export",
+        "proposedContent": "Prepare a local report after approved items are applied.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "PLACEHOLDER",
+        "placeholderMessage": "Local placeholder only. No external action was performed."
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.736Z",
+      "metadata": {
+        "title": "Manager report copy/export"
+      }
+    },
+    {
+      "decisionId": "dec_6282d18d-2412-4983-b743-b25adbc4aa0e",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_12",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "d863ea96-f8e5-4f8f-a1b9-5ec940b3ba12",
+      "actionType": "memory_candidate",
+      "verdict": "review_required",
+      "riskLevel": "medium",
+      "reasons": [
+        "Memory candidates require human review before becoming trusted durable precedent."
+      ],
+      "policyFindings": [
+        "memory_candidate_requires_human_approval"
+      ],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_3478ed5b-d12d-4aec-940f-6b65ae6e7099",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_92fd70f3-998a-4171-a5cd-1f01bc1fcbe1",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_f7d89c6a-e4c0-408c-9023-f36103f1d3c4",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "d863ea96-f8e5-4f8f-a1b9-5ec940b3ba12",
+        "type": "MEMORY_CANDIDATE",
+        "artifactId": "f15e0af3-b7ae-49c7-8d5e-4a2ac7d7dcb9",
+        "title": "Candidate operational memory",
+        "proposedContent": "Safety dispenser issues should route to Service and Quality before customer commitments.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": null,
+      "executionAuthority": "not_executable",
+      "requiresHumanReview": true,
+      "createdAt": "2026-05-30T18:07:05.731Z",
+      "metadata": {
+        "title": "Candidate operational memory"
+      }
+    },
+    {
+      "decisionId": "dec_e63cb658-3d53-4785-82fb-1d31a0681ea5",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_11",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "7b0de536-2426-4d64-8b29-05fb0612941e",
+      "actionType": "trend_alert",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_92fd70f3-998a-4171-a5cd-1f01bc1fcbe1",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_f7d89c6a-e4c0-408c-9023-f36103f1d3c4",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_6eea4800-2852-4a30-b209-68ab3af38f13",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "7b0de536-2426-4d64-8b29-05fb0612941e",
+        "type": "TREND_ALERT",
+        "artifactId": "ed08b2af-a441-409d-8727-b7caaccefec5",
+        "title": "MCR-180: COOLING_PERFORMANCE trend",
+        "proposedContent": "Investigate 14 COOLING_PERFORMANCE reports for MCR-180.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "7b0de536-2426-4d64-8b29-05fb0612941e",
+        "type": "TREND_ALERT",
+        "artifactId": "ed08b2af-a441-409d-8727-b7caaccefec5",
+        "title": "MCR-180: COOLING_PERFORMANCE trend",
+        "proposedContent": "Investigate 14 COOLING_PERFORMANCE reports for MCR-180.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.726Z",
+      "metadata": {
+        "title": "MCR-180: COOLING_PERFORMANCE trend"
+      }
+    },
+    {
+      "decisionId": "dec_c82537f0-cbf7-4def-84f6-6b19b9f5c636",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_10",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "24cafef3-696b-4ff1-905b-2a6dbbc6b862",
+      "actionType": "trend_alert",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_f7d89c6a-e4c0-408c-9023-f36103f1d3c4",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_6eea4800-2852-4a30-b209-68ab3af38f13",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_3568889c-0107-4498-b2b1-c6e6caacfd8b",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "24cafef3-696b-4ff1-905b-2a6dbbc6b862",
+        "type": "TREND_ALERT",
+        "artifactId": "881f6783-b7c6-44a6-b7e4-a04b9c6b5975",
+        "title": "MCR-120: COMPRESSOR_NOISE trend",
+        "proposedContent": "Investigate 15 COMPRESSOR_NOISE reports for MCR-120.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "24cafef3-696b-4ff1-905b-2a6dbbc6b862",
+        "type": "TREND_ALERT",
+        "artifactId": "881f6783-b7c6-44a6-b7e4-a04b9c6b5975",
+        "title": "MCR-120: COMPRESSOR_NOISE trend",
+        "proposedContent": "Investigate 15 COMPRESSOR_NOISE reports for MCR-120.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.720Z",
+      "metadata": {
+        "title": "MCR-120: COMPRESSOR_NOISE trend"
+      }
+    },
+    {
+      "decisionId": "dec_2035fcb5-7c05-493c-8297-ffd678c3a9fb",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_9",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "079d7380-4d33-4262-8c7a-79d9d3bfb791",
+      "actionType": "trend_alert",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_6eea4800-2852-4a30-b209-68ab3af38f13",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_3568889c-0107-4498-b2b1-c6e6caacfd8b",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "079d7380-4d33-4262-8c7a-79d9d3bfb791",
+        "type": "TREND_ALERT",
+        "artifactId": "a0f9ea40-70bb-45d0-aaaa-0cbd9dae7028",
+        "title": "PAF-45: COOLING_PERFORMANCE trend",
+        "proposedContent": "Investigate 20 COOLING_PERFORMANCE reports for PAF-45.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "079d7380-4d33-4262-8c7a-79d9d3bfb791",
+        "type": "TREND_ALERT",
+        "artifactId": "a0f9ea40-70bb-45d0-aaaa-0cbd9dae7028",
+        "title": "PAF-45: COOLING_PERFORMANCE trend",
+        "proposedContent": "Investigate 20 COOLING_PERFORMANCE reports for PAF-45.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.715Z",
+      "metadata": {
+        "title": "PAF-45: COOLING_PERFORMANCE trend"
+      }
+    },
+    {
+      "decisionId": "dec_edeead11-d8df-495c-ac2a-92cea5ac6cc5",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_8",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "7eedbb1a-1f9d-4297-b323-516d975a63fa",
+      "actionType": "trend_alert",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_3568889c-0107-4498-b2b1-c6e6caacfd8b",
+          "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "7eedbb1a-1f9d-4297-b323-516d975a63fa",
+        "type": "TREND_ALERT",
+        "artifactId": "15f23ac5-c350-45e5-b363-509808a10ebb",
+        "title": "SWD-40: MISSING_ACCESSORY trend",
+        "proposedContent": "Investigate 22 MISSING_ACCESSORY reports for SWD-40.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "7eedbb1a-1f9d-4297-b323-516d975a63fa",
+        "type": "TREND_ALERT",
+        "artifactId": "15f23ac5-c350-45e5-b363-509808a10ebb",
+        "title": "SWD-40: MISSING_ACCESSORY trend",
+        "proposedContent": "Investigate 22 MISSING_ACCESSORY reports for SWD-40.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.709Z",
+      "metadata": {
+        "title": "SWD-40: MISSING_ACCESSORY trend"
+      }
+    },
+    {
+      "decisionId": "dec_e0d39a2d-cc63-4d38-bc66-288923c0831c",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_7",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "acc4f6dd-087f-46e1-bdf8-eb33e4b374d4",
+      "actionType": "trend_alert",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "acc4f6dd-087f-46e1-bdf8-eb33e4b374d4",
+        "type": "TREND_ALERT",
+        "artifactId": "7f1a2e70-6fb7-4e3f-b51e-08dcc42c6eee",
+        "title": "SWD-20: SAFETY_CONCERN trend",
+        "proposedContent": "Investigate 24 SAFETY_CONCERN reports for SWD-20.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "acc4f6dd-087f-46e1-bdf8-eb33e4b374d4",
+        "type": "TREND_ALERT",
+        "artifactId": "7f1a2e70-6fb7-4e3f-b51e-08dcc42c6eee",
+        "title": "SWD-20: SAFETY_CONCERN trend",
+        "proposedContent": "Investigate 24 SAFETY_CONCERN reports for SWD-20.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.704Z",
+      "metadata": {
+        "title": "SWD-20: SAFETY_CONCERN trend"
+      }
+    },
+    {
+      "decisionId": "dec_379a767f-8165-4ad3-b2a5-702fe6e1cd72",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_6",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "3f512a4b-ebde-49b4-8810-9d76f7488650",
+      "actionType": "sla_escalation",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_3e742df8-5702-47d1-8f8c-d6aab44565c3",
+          "content": "DriftGuard verdict allow for status_change: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_24c69045-599d-432d-abe7-bb8ce0354a01",
+          "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_0ebc6b81-7803-4548-84a9-f79568929d0f",
+          "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "3f512a4b-ebde-49b4-8810-9d76f7488650",
+        "type": "SLA_ESCALATION",
+        "issueId": "iss-1016",
+        "title": "IO-1016: SLA escalation",
+        "proposedContent": "CRITICAL issue is BREACHED: 386h 2m overdue.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "3f512a4b-ebde-49b4-8810-9d76f7488650",
+        "type": "SLA_ESCALATION",
+        "issueId": "iss-1016",
+        "title": "IO-1016: SLA escalation",
+        "proposedContent": "CRITICAL issue is BREACHED: 386h 2m overdue.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.699Z",
+      "metadata": {
+        "title": "IO-1016: SLA escalation",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL"
+      }
+    },
+    {
+      "decisionId": "dec_3a8c0677-8597-40a9-8d7e-3b40a91ad4e0",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_5",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "2389a8cb-37d7-49cb-a0f7-80045e6769aa",
+      "actionType": "status_change",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_24c69045-599d-432d-abe7-bb8ce0354a01",
+          "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_0ebc6b81-7803-4548-84a9-f79568929d0f",
+          "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_a3fa1098-2dcf-4ec6-b663-60e2c15973bb",
+          "content": "DriftGuard verdict allow for customer_reply_draft: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        }
+      ],
+      "originalPayload": {
+        "id": "2389a8cb-37d7-49cb-a0f7-80045e6769aa",
+        "type": "STATUS_CHANGE",
+        "issueId": "iss-1016",
+        "title": "IO-1016: status recommendation",
+        "proposedContent": "Change issue status from ESCALATED to ESCALATED.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "2389a8cb-37d7-49cb-a0f7-80045e6769aa",
+        "type": "STATUS_CHANGE",
+        "issueId": "iss-1016",
+        "title": "IO-1016: status recommendation",
+        "proposedContent": "Change issue status from ESCALATED to ESCALATED.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.694Z",
+      "metadata": {
+        "title": "IO-1016: status recommendation",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL"
+      }
+    },
+    {
+      "decisionId": "dec_fa390736-ee34-43e5-ad64-577ed4e89bd7",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_3",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "e95be46c-335a-449c-b39c-69864d20a283",
+      "actionType": "department_action",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_a3fa1098-2dcf-4ec6-b663-60e2c15973bb",
+          "content": "DriftGuard verdict allow for customer_reply_draft: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_a42af1b4-3ddb-4267-882c-eb6fab55b668",
+          "content": "DriftGuard verdict allow for issue_classification: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "e95be46c-335a-449c-b39c-69864d20a283",
+        "type": "DEPARTMENT_ACTION",
+        "issueId": "iss-1016",
+        "artifactId": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+        "title": "IO-1016: SERVICE action",
+        "proposedContent": "Inspect safety complaint. Review the reported safety issue and record local next steps.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "e95be46c-335a-449c-b39c-69864d20a283",
+        "type": "DEPARTMENT_ACTION",
+        "issueId": "iss-1016",
+        "artifactId": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+        "title": "IO-1016: SERVICE action",
+        "proposedContent": "Inspect safety complaint. Review the reported safety issue and record local next steps.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.684Z",
+      "metadata": {
+        "title": "IO-1016: SERVICE action",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL"
+      }
+    },
+    {
+      "decisionId": "dec_57908418-f65a-436a-a7d7-471eff24eedd",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_2",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "038b2c94-4176-46c7-863f-17ec4f93eb61",
+      "actionType": "customer_reply_draft",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_a42af1b4-3ddb-4267-882c-eb6fab55b668",
+          "content": "DriftGuard verdict allow for issue_classification: No blocking policy or memory constraint violation detected.",
+          "trustLevel": "observed_execution",
+          "authorityRank": 70
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "038b2c94-4176-46c7-863f-17ec4f93eb61",
+        "type": "CUSTOMER_REPLY_DRAFT",
+        "issueId": "iss-1016",
+        "artifactId": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+        "title": "IO-1016: reply draft",
+        "proposedContent": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "038b2c94-4176-46c7-863f-17ec4f93eb61",
+        "type": "CUSTOMER_REPLY_DRAFT",
+        "issueId": "iss-1016",
+        "artifactId": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+        "title": "IO-1016: reply draft",
+        "proposedContent": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.679Z",
+      "metadata": {
+        "title": "IO-1016: reply draft",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL"
+      }
+    },
+    {
+      "decisionId": "dec_d059a595-1330-469f-a161-0980f313e46f",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_1",
+      "workspaceId": "demo-workspace",
+      "sourceSystem": "issueops",
+      "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+      "externalItemId": "f88c04ad-813e-44f9-aecd-52db9dc5f71b",
+      "actionType": "issue_classification",
+      "verdict": "allow",
+      "riskLevel": "low",
+      "reasons": [
+        "No blocking policy or memory constraint violation detected."
+      ],
+      "policyFindings": [],
+      "memoryReferences": [
+        {
+          "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+          "content": "Memory candidates are not trusted or durable until human approved.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+          "content": "Placeholder actions must not claim real external execution or delivery occurred.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+          "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+          "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+          "content": "Safety-related product issues require Service and Quality handling before customer commitments.",
+          "trustLevel": "system_config",
+          "authorityRank": 100
+        },
+        {
+          "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+          "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+          "trustLevel": "llm_inferred",
+          "authorityRank": 30
+        }
+      ],
+      "originalPayload": {
+        "id": "f88c04ad-813e-44f9-aecd-52db9dc5f71b",
+        "type": "ISSUE_CLASSIFICATION",
+        "issueId": "iss-1016",
+        "artifactId": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+        "title": "IO-1016: WATER_LEAKAGE",
+        "proposedContent": "Short reason based on supplied issue facts. SLA BREACHED.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "modifiedPayload": null,
+      "executablePayload": {
+        "id": "f88c04ad-813e-44f9-aecd-52db9dc5f71b",
+        "type": "ISSUE_CLASSIFICATION",
+        "issueId": "iss-1016",
+        "artifactId": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+        "title": "IO-1016: WATER_LEAKAGE",
+        "proposedContent": "Short reason based on supplied issue facts. SLA BREACHED.",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "executionAuthority": "driftguard_allow",
+      "requiresHumanReview": false,
+      "createdAt": "2026-05-30T18:07:05.673Z",
+      "metadata": {
+        "title": "IO-1016: WATER_LEAKAGE",
+        "issueNumber": "IO-1016",
+        "productSku": "SWD-20",
+        "category": "WATER_LEAKAGE",
+        "severity": "CRITICAL"
+      }
+    }
+  ],
+  "memories": [
+    {
+      "memoryId": "mem_4d479727-9d8c-4fa1-842d-f2a8986b0cc3",
+      "authorityRank": 76,
+      "structuredJson": {
+        "status": "LOCAL_PLACEHOLDER_RECORDED",
+        "decisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03"
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:15:59.685Z",
+      "updatedAt": "2026-05-30T18:15:59.685Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "connector_receipt_memory",
+      "memoryType": "local_placeholder_receipt",
+      "trustLevel": "connector_receipt",
+      "writerType": "connector",
+      "writerId": "integration-local-placeholder",
+      "content": "Integration local apply only. No IssueOps source was modified and no external side effect occurred.",
+      "sourceDecisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_4"
+    },
+    {
+      "memoryId": "mem_6918f4ef-2613-40af-a9bc-cb76bdf4a920",
+      "authorityRank": 88,
+      "structuredJson": {
+        "overridePayload": null
+      },
+      "durable": false,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:13:36.267Z",
+      "updatedAt": "2026-05-30T18:13:36.267Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "human_override_memory",
+      "memoryType": "specific_action_override",
+      "trustLevel": "human_approved",
+      "writerType": "human_reviewer",
+      "writerId": "manager-demo",
+      "content": "Human-authorized override for dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03: not appropriate increase margin",
+      "sourceDecisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_4"
+    },
+    {
+      "memoryId": "mem_034ed9f5-0b80-497b-adb6-8af3bf7eb9e3",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.738Z",
+      "updatedAt": "2026-05-30T18:07:05.738Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for report_export: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_27cb4662-87fd-4dd0-a452-c3cb0e0d2f11",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_13",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_0f0dcc05-1e45-4c8a-b492-3596054b3cca",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "review_required",
+        "riskLevel": "medium",
+        "policyFindings": [
+          "memory_candidate_requires_human_approval"
+        ]
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.733Z",
+      "updatedAt": "2026-05-30T18:07:05.733Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict review_required for memory_candidate: Memory candidates require human review before becoming trusted durable precedent.",
+      "sourceDecisionId": "dec_6282d18d-2412-4983-b743-b25adbc4aa0e",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_12",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_3478ed5b-d12d-4aec-940f-6b65ae6e7099",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.728Z",
+      "updatedAt": "2026-05-30T18:07:05.728Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_e63cb658-3d53-4785-82fb-1d31a0681ea5",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_11",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_92fd70f3-998a-4171-a5cd-1f01bc1fcbe1",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.723Z",
+      "updatedAt": "2026-05-30T18:07:05.723Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_c82537f0-cbf7-4def-84f6-6b19b9f5c636",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_10",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_f7d89c6a-e4c0-408c-9023-f36103f1d3c4",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.717Z",
+      "updatedAt": "2026-05-30T18:07:05.717Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_2035fcb5-7c05-493c-8297-ffd678c3a9fb",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_9",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_6eea4800-2852-4a30-b209-68ab3af38f13",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.711Z",
+      "updatedAt": "2026-05-30T18:07:05.711Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_edeead11-d8df-495c-ac2a-92cea5ac6cc5",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_8",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_3568889c-0107-4498-b2b1-c6e6caacfd8b",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.706Z",
+      "updatedAt": "2026-05-30T18:07:05.706Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for trend_alert: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_e0d39a2d-cc63-4d38-bc66-288923c0831c",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_7",
+      "productSku": null,
+      "category": null
+    },
+    {
+      "memoryId": "mem_a23e04ea-7ad5-4cae-8da9-d9227f5fc34d",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.701Z",
+      "updatedAt": "2026-05-30T18:07:05.701Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for sla_escalation: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_379a767f-8165-4ad3-b2a5-702fe6e1cd72",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_6",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_3e742df8-5702-47d1-8f8c-d6aab44565c3",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.696Z",
+      "updatedAt": "2026-05-30T18:07:05.696Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for status_change: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_3a8c0677-8597-40a9-8d7e-3b40a91ad4e0",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_5",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_24c69045-599d-432d-abe7-bb8ce0354a01",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.691Z",
+      "updatedAt": "2026-05-30T18:07:05.691Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_4",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_0ebc6b81-7803-4548-84a9-f79568929d0f",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.686Z",
+      "updatedAt": "2026-05-30T18:07:05.686Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for department_action: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_fa390736-ee34-43e5-ad64-577ed4e89bd7",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_3",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_a3fa1098-2dcf-4ec6-b663-60e2c15973bb",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.681Z",
+      "updatedAt": "2026-05-30T18:07:05.681Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for customer_reply_draft: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_57908418-f65a-436a-a7d7-471eff24eedd",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_2",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_a42af1b4-3ddb-4267-882c-eb6fab55b668",
+      "authorityRank": 70,
+      "structuredJson": {
+        "verdict": "allow",
+        "riskLevel": "low",
+        "policyFindings": []
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.675Z",
+      "updatedAt": "2026-05-30T18:07:05.675Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "driftguard_decision_memory",
+      "memoryType": "supervision_decision",
+      "trustLevel": "observed_execution",
+      "writerType": "driftguard",
+      "writerId": "policy-engine",
+      "content": "DriftGuard verdict allow for issue_classification: No blocking policy or memory constraint violation detected.",
+      "sourceDecisionId": "dec_d059a595-1330-469f-a161-0980f313e46f",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "sourceStepId": "step_1",
+      "productSku": "SWD-20",
+      "category": "WATER_LEAKAGE"
+    },
+    {
+      "memoryId": "mem_fc33e62c-aed1-4532-a718-4fc7bc896aac",
+      "authorityRank": 30,
+      "structuredJson": {
+        "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+        "itemCount": 13
+      },
+      "durable": false,
+      "requiresHumanApproval": true,
+      "createdAt": "2026-05-30T18:07:05.669Z",
+      "updatedAt": "2026-05-30T18:07:05.669Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "worker_proposal_memory",
+      "memoryType": "worker_plan_proposal",
+      "trustLevel": "llm_inferred",
+      "writerType": "worker_agent",
+      "writerId": "issueops",
+      "content": "IssueOps proposed 13 plan items for 2443051e-f637-4bf9-892b-f6ff1cfa2702.",
+      "sourceTrajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a"
+    },
+    {
+      "memoryId": "mem_31e74c55-4f25-41c6-8657-716a5f5bf524",
+      "authorityRank": 100,
+      "structuredJson": {
+        "constraintType": "requires_human_review"
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.665Z",
+      "updatedAt": "2026-05-30T18:07:05.665Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "policy_memory",
+      "memoryType": "memory_candidate",
+      "trustLevel": "system_config",
+      "writerType": "system_seed",
+      "writerId": "seed",
+      "content": "Memory candidates are not trusted or durable until human approved."
+    },
+    {
+      "memoryId": "mem_d4a9a27b-cc11-4351-ab06-b580ce1bad8a",
+      "authorityRank": 100,
+      "structuredJson": {
+        "constraintType": "runtime_local_only"
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.665Z",
+      "updatedAt": "2026-05-30T18:07:05.665Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "policy_memory",
+      "memoryType": "local_only",
+      "trustLevel": "system_config",
+      "writerType": "system_seed",
+      "writerId": "seed",
+      "content": "Placeholder actions must not claim real external execution or delivery occurred."
+    },
+    {
+      "memoryId": "mem_0b70d994-9a1f-4e24-ad07-b4912c680b2a",
+      "authorityRank": 100,
+      "structuredJson": {
+        "constraintType": "requires_context",
+        "requiredText": "stop using"
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.665Z",
+      "updatedAt": "2026-05-30T18:07:05.665Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "policy_memory",
+      "memoryType": "safety_reply",
+      "trustLevel": "system_config",
+      "writerType": "system_seed",
+      "writerId": "seed",
+      "content": "Safety-risk replies must advise the customer to stop using the product immediately and contact official support."
+    },
+    {
+      "memoryId": "mem_48e376d4-3fa6-41dc-8254-cc48e9b20d93",
+      "authorityRank": 100,
+      "structuredJson": {
+        "constraintType": "forbidden_commitment"
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.665Z",
+      "updatedAt": "2026-05-30T18:07:05.665Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "policy_memory",
+      "memoryType": "customer_commitment",
+      "trustLevel": "system_config",
+      "writerType": "system_seed",
+      "writerId": "seed",
+      "content": "Customer replies must not promise refunds, replacements, compensation, legal fault, or root cause without manager or department confirmation."
+    },
+    {
+      "memoryId": "mem_783ab0a6-d393-49f2-8588-7802372ba4c7",
+      "authorityRank": 100,
+      "structuredJson": {
+        "constraintType": "sequencing_required",
+        "requiredDepartments": [
+          "SERVICE",
+          "QUALITY"
+        ]
+      },
+      "durable": true,
+      "requiresHumanApproval": false,
+      "createdAt": "2026-05-30T18:07:05.664Z",
+      "updatedAt": "2026-05-30T18:07:05.664Z",
+      "workspaceId": "demo-workspace",
+      "memoryLayer": "policy_memory",
+      "memoryType": "safety_handling",
+      "trustLevel": "system_config",
+      "writerType": "system_seed",
+      "writerId": "seed",
+      "content": "Safety-related product issues require Service and Quality handling before customer commitments."
+    }
+  ],
+  "receipts": [
+    {
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "stepId": "step_4",
+      "decisionId": "dec_70306b56-8e98-42a6-8ddd-68e8e6b6ad03",
+      "workspaceId": "demo-workspace",
+      "executionAuthority": "human_authorized_override",
+      "status": "LOCAL_PLACEHOLDER_RECORDED",
+      "message": "Integration local apply only. No IssueOps source was modified and no external side effect occurred.",
+      "payload": {
+        "id": "8f25554b-0414-486f-9e35-84086a6c3327",
+        "type": "DEPARTMENT_ACTION",
+        "issueId": "iss-1016",
+        "artifactId": "b99ffb05-84ee-4c65-9046-f336340a80af",
+        "title": "IO-1016: QUALITY action",
+        "proposedContent": "QUALITY review for SWD-20 WATER_LEAKAGE. Review issue IO-1016: Leakage near base. ",
+        "proposedByAgent": "Supervisor Agent",
+        "approvalStatus": "PROPOSED",
+        "executionStatus": "NOT_EXECUTED",
+        "executionMode": "LOCAL_ONLY"
+      },
+      "receiptId": "rcpt_19872a9b-896d-48dc-8906-ab4627d402f5",
+      "createdAt": "2026-05-30T18:15:59.682Z"
+    }
+  ],
+  "rawEvents": [
+    {
+      "eventId": "evt_f607a69d-e25b-44fb-bd10-3b70c40e874b",
+      "workspaceId": "demo-workspace",
+      "eventType": "worker_plan_received",
+      "trajectoryId": "traj_0ddbff67-9eef-496d-99fc-5410044de71a",
+      "createdAt": "2026-05-30T18:07:05.667Z",
+      "workerPlan": {
+        "sourceSystem": "issueops",
+        "externalPlanId": "2443051e-f637-4bf9-892b-f6ff1cfa2702",
+        "managerObjective": "Handle urgent customer issues while avoiding unapproved commitments.",
+        "proposedBy": "issueops",
+        "proposedAt": "2026-05-30T18:02:06.544Z",
+        "workItems": [
+          {
+            "workItemId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "severity": "CRITICAL",
+            "category": "WATER_LEAKAGE",
+            "metadata": {
+              "issueId": "iss-1016",
+              "issueNumber": "IO-1016",
+              "productSku": "SWD-20",
+              "currentStatus": "ESCALATED",
+              "recommendedNextStatus": "ESCALATED",
+              "slaStatus": "BREACHED",
+              "classification": {
+                "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                "issueId": "iss-1016",
+                "category": "WATER_LEAKAGE",
+                "subcategory": "leakage near electrical area",
+                "severity": "CRITICAL",
+                "sentiment": "NEGATIVE",
+                "urgencyScore": 95,
+                "primaryDepartment": "SERVICE",
+                "secondaryDepartments": [
+                  "QUALITY",
+                  "PRODUCTION",
+                  "SERVICE"
+                ],
+                "riskFlags": {
+                  "safetyRisk": true,
+                  "refundRisk": false,
+                  "warrantyLikely": true,
+                  "reputationRisk": true,
+                  "productionRisk": true,
+                  "procurementRisk": false,
+                  "designRisk": false,
+                  "financeRisk": false,
+                  "serviceRisk": true
+                },
+                "explanation": "Short reason based on supplied issue facts.",
+                "createdAt": "2026-05-30T18:02:19.924Z"
+              },
+              "policyFindings": [
+                {
+                  "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                  "issueId": "iss-1016",
+                  "applicablePolicies": [
+                    "Safety escalation"
+                  ],
+                  "customerReplyConstraints": [
+                    "Use official support contact only."
+                  ],
+                  "forbiddenCommitments": [
+                    "No refund promise",
+                    "No replacement promise"
+                  ],
+                  "requiredEscalations": [
+                    "SERVICE",
+                    "QUALITY"
+                  ],
+                  "managerApprovalRequirements": [
+                    "Manager approval required before customer reply.",
+                    "Manager approval required before warranty refund."
+                  ],
+                  "safetyHandlingRequirements": [
+                    "Tell customer to stop using product if safety risk exists."
+                  ],
+                  "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                }
+              ],
+              "memoryUsed": [
+                {
+                  "memoryId": "mem-001",
+                  "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                  "trustLevel": "MANAGER_APPROVED",
+                  "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                }
+              ],
+              "replyDraft": {
+                "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                "issueId": "iss-1016",
+                "productSku": "SWD-20",
+                "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                "tone": "URGENT",
+                "approvalRequired": true,
+                "explanation": "Safety-sensitive reply that avoids commitments.",
+                "policyConstraintsRespected": [
+                  "No refund promise"
+                ],
+                "unsafeCommitmentsAvoided": [
+                  "No legal fault admission"
+                ],
+                "status": "PROPOSED",
+                "createdAt": "2026-05-30T18:02:34.481Z"
+              },
+              "departmentActions": [
+                {
+                  "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                  "issueId": "iss-1016",
+                  "productId": "prod-swd-20",
+                  "department": "SERVICE",
+                  "priority": "CRITICAL",
+                  "title": "Inspect safety complaint",
+                  "description": "Review the reported safety issue and record local next steps.",
+                  "reason": "Safety risk from triage.",
+                  "dueDate": "today",
+                  "status": "OPEN",
+                  "createdAt": "2026-05-30T18:02:48.393Z"
+                },
+                {
+                  "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                  "issueId": "iss-1016",
+                  "productId": "prod-swd-20",
+                  "department": "QUALITY",
+                  "priority": "CRITICAL",
+                  "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                  "description": "Review issue IO-1016: Leakage near base. ",
+                  "reason": "Short reason based on supplied issue facts.",
+                  "dueDate": "2026-05-30T20:02:41.002Z",
+                  "status": "OPEN",
+                  "createdAt": "2026-05-30T18:02:41.002Z"
+                }
+              ],
+              "trendSignals": [],
+              "managerApprovalRequired": true,
+              "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+            }
+          }
+        ],
+        "planItems": [
+          {
+            "externalItemId": "f88c04ad-813e-44f9-aecd-52db9dc5f71b",
+            "actionType": "issue_classification",
+            "title": "IO-1016: WATER_LEAKAGE",
+            "proposedContent": "Short reason based on supplied issue facts. SLA BREACHED.",
+            "payload": {
+              "id": "f88c04ad-813e-44f9-aecd-52db9dc5f71b",
+              "type": "ISSUE_CLASSIFICATION",
+              "issueId": "iss-1016",
+              "artifactId": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+              "title": "IO-1016: WATER_LEAKAGE",
+              "proposedContent": "Short reason based on supplied issue facts. SLA BREACHED.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "SERVICE",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "038b2c94-4176-46c7-863f-17ec4f93eb61",
+            "actionType": "customer_reply_draft",
+            "title": "IO-1016: reply draft",
+            "proposedContent": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+            "payload": {
+              "id": "038b2c94-4176-46c7-863f-17ec4f93eb61",
+              "type": "CUSTOMER_REPLY_DRAFT",
+              "issueId": "iss-1016",
+              "artifactId": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+              "title": "IO-1016: reply draft",
+              "proposedContent": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "SERVICE",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "e95be46c-335a-449c-b39c-69864d20a283",
+            "actionType": "department_action",
+            "title": "IO-1016: SERVICE action",
+            "proposedContent": "Inspect safety complaint. Review the reported safety issue and record local next steps.",
+            "payload": {
+              "id": "e95be46c-335a-449c-b39c-69864d20a283",
+              "type": "DEPARTMENT_ACTION",
+              "issueId": "iss-1016",
+              "artifactId": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+              "title": "IO-1016: SERVICE action",
+              "proposedContent": "Inspect safety complaint. Review the reported safety issue and record local next steps.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "SERVICE",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "8f25554b-0414-486f-9e35-84086a6c3327",
+            "actionType": "department_action",
+            "title": "IO-1016: QUALITY action",
+            "proposedContent": "QUALITY review for SWD-20 WATER_LEAKAGE. Review issue IO-1016: Leakage near base. ",
+            "payload": {
+              "id": "8f25554b-0414-486f-9e35-84086a6c3327",
+              "type": "DEPARTMENT_ACTION",
+              "issueId": "iss-1016",
+              "artifactId": "b99ffb05-84ee-4c65-9046-f336340a80af",
+              "title": "IO-1016: QUALITY action",
+              "proposedContent": "QUALITY review for SWD-20 WATER_LEAKAGE. Review issue IO-1016: Leakage near base. ",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "QUALITY",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "2389a8cb-37d7-49cb-a0f7-80045e6769aa",
+            "actionType": "status_change",
+            "title": "IO-1016: status recommendation",
+            "proposedContent": "Change issue status from ESCALATED to ESCALATED.",
+            "payload": {
+              "id": "2389a8cb-37d7-49cb-a0f7-80045e6769aa",
+              "type": "STATUS_CHANGE",
+              "issueId": "iss-1016",
+              "title": "IO-1016: status recommendation",
+              "proposedContent": "Change issue status from ESCALATED to ESCALATED.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "SERVICE",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "3f512a4b-ebde-49b4-8810-9d76f7488650",
+            "actionType": "sla_escalation",
+            "title": "IO-1016: SLA escalation",
+            "proposedContent": "CRITICAL issue is BREACHED: 386h 2m overdue.",
+            "payload": {
+              "id": "3f512a4b-ebde-49b4-8810-9d76f7488650",
+              "type": "SLA_ESCALATION",
+              "issueId": "iss-1016",
+              "title": "IO-1016: SLA escalation",
+              "proposedContent": "CRITICAL issue is BREACHED: 386h 2m overdue.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "sourceIssueId": "iss-1016",
+            "issueNumber": "IO-1016",
+            "productSku": "SWD-20",
+            "category": "WATER_LEAKAGE",
+            "severity": "CRITICAL",
+            "department": "SERVICE",
+            "metadata": {
+              "issueResult": {
+                "issueId": "iss-1016",
+                "issueNumber": "IO-1016",
+                "productSku": "SWD-20",
+                "currentStatus": "ESCALATED",
+                "recommendedNextStatus": "ESCALATED",
+                "slaStatus": "BREACHED",
+                "classification": {
+                  "id": "b0e3eb4b-5173-471b-a375-202b1551a6f9",
+                  "issueId": "iss-1016",
+                  "category": "WATER_LEAKAGE",
+                  "subcategory": "leakage near electrical area",
+                  "severity": "CRITICAL",
+                  "sentiment": "NEGATIVE",
+                  "urgencyScore": 95,
+                  "primaryDepartment": "SERVICE",
+                  "secondaryDepartments": [
+                    "QUALITY",
+                    "PRODUCTION",
+                    "SERVICE"
+                  ],
+                  "riskFlags": {
+                    "safetyRisk": true,
+                    "refundRisk": false,
+                    "warrantyLikely": true,
+                    "reputationRisk": true,
+                    "productionRisk": true,
+                    "procurementRisk": false,
+                    "designRisk": false,
+                    "financeRisk": false,
+                    "serviceRisk": true
+                  },
+                  "explanation": "Short reason based on supplied issue facts.",
+                  "createdAt": "2026-05-30T18:02:19.924Z"
+                },
+                "policyFindings": [
+                  {
+                    "id": "14f0e918-fc5a-42ef-8b67-e7855f23b301",
+                    "issueId": "iss-1016",
+                    "applicablePolicies": [
+                      "Safety escalation"
+                    ],
+                    "customerReplyConstraints": [
+                      "Use official support contact only."
+                    ],
+                    "forbiddenCommitments": [
+                      "No refund promise",
+                      "No replacement promise"
+                    ],
+                    "requiredEscalations": [
+                      "SERVICE",
+                      "QUALITY"
+                    ],
+                    "managerApprovalRequirements": [
+                      "Manager approval required before customer reply.",
+                      "Manager approval required before warranty refund."
+                    ],
+                    "safetyHandlingRequirements": [
+                      "Tell customer to stop using product if safety risk exists."
+                    ],
+                    "warrantyRefundGuidance": "Do not promise refund or replacement unless manager approves."
+                  }
+                ],
+                "memoryUsed": [
+                  {
+                    "memoryId": "mem-001",
+                    "content": "SWD-20 WATER_LEAKAGE cases should be reviewed with SERVICE before commitments are made.",
+                    "trustLevel": "MANAGER_APPROVED",
+                    "explanation": "Relevant prior issue pattern. Suggested influence: Use cautious language."
+                  }
+                ],
+                "replyDraft": {
+                  "id": "5141d2f8-da73-495a-bb61-7d91d3bc9510",
+                  "issueId": "iss-1016",
+                  "productSku": "SWD-20",
+                  "draftText": "Please stop using the product immediately and contact official support at support@example.com so the team can review the next steps.",
+                  "tone": "URGENT",
+                  "approvalRequired": true,
+                  "explanation": "Safety-sensitive reply that avoids commitments.",
+                  "policyConstraintsRespected": [
+                    "No refund promise"
+                  ],
+                  "unsafeCommitmentsAvoided": [
+                    "No legal fault admission"
+                  ],
+                  "status": "PROPOSED",
+                  "createdAt": "2026-05-30T18:02:34.481Z"
+                },
+                "departmentActions": [
+                  {
+                    "id": "5b46685b-f3ac-4bf7-b8c0-d59abe238609",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "SERVICE",
+                    "priority": "CRITICAL",
+                    "title": "Inspect safety complaint",
+                    "description": "Review the reported safety issue and record local next steps.",
+                    "reason": "Safety risk from triage.",
+                    "dueDate": "today",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:48.393Z"
+                  },
+                  {
+                    "id": "b99ffb05-84ee-4c65-9046-f336340a80af",
+                    "issueId": "iss-1016",
+                    "productId": "prod-swd-20",
+                    "department": "QUALITY",
+                    "priority": "CRITICAL",
+                    "title": "QUALITY review for SWD-20 WATER_LEAKAGE",
+                    "description": "Review issue IO-1016: Leakage near base. ",
+                    "reason": "Short reason based on supplied issue facts.",
+                    "dueDate": "2026-05-30T20:02:41.002Z",
+                    "status": "OPEN",
+                    "createdAt": "2026-05-30T18:02:41.002Z"
+                  }
+                ],
+                "trendSignals": [],
+                "managerApprovalRequired": true,
+                "explanation": "SWD-20 WATER_LEAKAGE is owned by SERVICE. Components in scope: pump assembly, cold tank, dispense sensor."
+              }
+            }
+          },
+          {
+            "externalItemId": "acc4f6dd-087f-46e1-bdf8-eb33e4b374d4",
+            "actionType": "trend_alert",
+            "title": "SWD-20: SAFETY_CONCERN trend",
+            "proposedContent": "Investigate 24 SAFETY_CONCERN reports for SWD-20.",
+            "payload": {
+              "id": "acc4f6dd-087f-46e1-bdf8-eb33e4b374d4",
+              "type": "TREND_ALERT",
+              "artifactId": "7f1a2e70-6fb7-4e3f-b51e-08dcc42c6eee",
+              "title": "SWD-20: SAFETY_CONCERN trend",
+              "proposedContent": "Investigate 24 SAFETY_CONCERN reports for SWD-20.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "7eedbb1a-1f9d-4297-b323-516d975a63fa",
+            "actionType": "trend_alert",
+            "title": "SWD-40: MISSING_ACCESSORY trend",
+            "proposedContent": "Investigate 22 MISSING_ACCESSORY reports for SWD-40.",
+            "payload": {
+              "id": "7eedbb1a-1f9d-4297-b323-516d975a63fa",
+              "type": "TREND_ALERT",
+              "artifactId": "15f23ac5-c350-45e5-b363-509808a10ebb",
+              "title": "SWD-40: MISSING_ACCESSORY trend",
+              "proposedContent": "Investigate 22 MISSING_ACCESSORY reports for SWD-40.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "079d7380-4d33-4262-8c7a-79d9d3bfb791",
+            "actionType": "trend_alert",
+            "title": "PAF-45: COOLING_PERFORMANCE trend",
+            "proposedContent": "Investigate 20 COOLING_PERFORMANCE reports for PAF-45.",
+            "payload": {
+              "id": "079d7380-4d33-4262-8c7a-79d9d3bfb791",
+              "type": "TREND_ALERT",
+              "artifactId": "a0f9ea40-70bb-45d0-aaaa-0cbd9dae7028",
+              "title": "PAF-45: COOLING_PERFORMANCE trend",
+              "proposedContent": "Investigate 20 COOLING_PERFORMANCE reports for PAF-45.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "24cafef3-696b-4ff1-905b-2a6dbbc6b862",
+            "actionType": "trend_alert",
+            "title": "MCR-120: COMPRESSOR_NOISE trend",
+            "proposedContent": "Investigate 15 COMPRESSOR_NOISE reports for MCR-120.",
+            "payload": {
+              "id": "24cafef3-696b-4ff1-905b-2a6dbbc6b862",
+              "type": "TREND_ALERT",
+              "artifactId": "881f6783-b7c6-44a6-b7e4-a04b9c6b5975",
+              "title": "MCR-120: COMPRESSOR_NOISE trend",
+              "proposedContent": "Investigate 15 COMPRESSOR_NOISE reports for MCR-120.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "7b0de536-2426-4d64-8b29-05fb0612941e",
+            "actionType": "trend_alert",
+            "title": "MCR-180: COOLING_PERFORMANCE trend",
+            "proposedContent": "Investigate 14 COOLING_PERFORMANCE reports for MCR-180.",
+            "payload": {
+              "id": "7b0de536-2426-4d64-8b29-05fb0612941e",
+              "type": "TREND_ALERT",
+              "artifactId": "ed08b2af-a441-409d-8727-b7caaccefec5",
+              "title": "MCR-180: COOLING_PERFORMANCE trend",
+              "proposedContent": "Investigate 14 COOLING_PERFORMANCE reports for MCR-180.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "d863ea96-f8e5-4f8f-a1b9-5ec940b3ba12",
+            "actionType": "memory_candidate",
+            "title": "Candidate operational memory",
+            "proposedContent": "Safety dispenser issues should route to Service and Quality before customer commitments.",
+            "payload": {
+              "id": "d863ea96-f8e5-4f8f-a1b9-5ec940b3ba12",
+              "type": "MEMORY_CANDIDATE",
+              "artifactId": "f15e0af3-b7ae-49c7-8d5e-4a2ac7d7dcb9",
+              "title": "Candidate operational memory",
+              "proposedContent": "Safety dispenser issues should route to Service and Quality before customer commitments.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "LOCAL_ONLY"
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "LOCAL_ONLY",
+            "department": "SERVICE",
+            "metadata": {}
+          },
+          {
+            "externalItemId": "5159394b-5f7b-4b6c-901a-b6cb8c804d9e",
+            "actionType": "report_export",
+            "title": "Manager report copy/export",
+            "proposedContent": "Prepare a local report after approved items are applied.",
+            "payload": {
+              "id": "5159394b-5f7b-4b6c-901a-b6cb8c804d9e",
+              "type": "REPORT_EXPORT",
+              "title": "Manager report copy/export",
+              "proposedContent": "Prepare a local report after approved items are applied.",
+              "proposedByAgent": "Supervisor Agent",
+              "approvalStatus": "PROPOSED",
+              "executionStatus": "NOT_EXECUTED",
+              "executionMode": "PLACEHOLDER",
+              "placeholderMessage": "Local placeholder only. No external action was performed."
+            },
+            "proposedByAgent": "Supervisor Agent",
+            "executionMode": "PLACEHOLDER",
+            "metadata": {}
+          }
+        ]
+      }
+    }
+  ]
+}
